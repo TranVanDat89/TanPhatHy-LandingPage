@@ -1019,11 +1019,11 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 100%;
   border-radius: 10px;
   border: 6px solid #fff;
   position: absolute;
-  left: -45px;
+  object-fit: contain;
 }
 
 .testimonials .testimonial-item h3 {
